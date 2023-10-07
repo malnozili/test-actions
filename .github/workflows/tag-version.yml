@@ -19,6 +19,8 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.FGDFG }}
         WITH_V: true
         DRY_RUN: true
+        # major minor  patch
+        DEFAULT_BUMP: major
 
     - name: echo new tag
       run: |
